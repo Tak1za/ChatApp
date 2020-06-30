@@ -34,19 +34,7 @@ class Message {
 
   static List<User> favorites = [sam, steven, olivia, john, greg];
 
-  List<Message> chats = [
-    Message(
-        sender: steven,
-        time: '5:30PM',
-        text: 'Hey, how are you?',
-        isLiked: false,
-        unread: true),
-    Message(
-        sender: james,
-        time: '4:30PM',
-        text: 'Hey, what\'s up?',
-        isLiked: false,
-        unread: true),
+  static List<Message> chats = [
     Message(
         sender: greg,
         time: '3:30PM',
@@ -56,7 +44,7 @@ class Message {
     Message(
         sender: sophia,
         time: '2:30PM',
-        text: 'No on\'s home',
+        text: 'No one\'s home',
         isLiked: true,
         unread: false),
     Message(
@@ -76,6 +64,18 @@ class Message {
         time: '8:30PM',
         text: 'Hey, what\'s going on?',
         isLiked: false,
-        unread: true)
+        unread: true),
+    Message(
+        sender: steven,
+        time: '5:30PM',
+        text: 'Hey, how are you? Wanna head out tonight?',
+        isLiked: false,
+        unread: true),
+    Message(
+        sender: james,
+        time: '4:30PM',
+        text: 'Hey, what\'s up?',
+        isLiked: false,
+        unread: true),
   ];
 }

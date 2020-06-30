@@ -16,7 +16,7 @@ class Avatar extends StatelessWidget {
             radius: 35.0,
             backgroundImage: AssetImage(Message.favorites[_index].imageUrl),
           ),
-          SizedBox(height: 6.0),
+          SizedBox(height: 12.0),
           Text(
             Message.favorites[_index].name,
             style: TextStyle(color: Colors.blueGrey),
