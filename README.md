@@ -1,3 +1,3 @@
 # ChatApp
 
-A simple Chat App UI design using flutter
+A UI design for a messenger application designed in Flutter
